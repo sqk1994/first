@@ -1,0 +1,286 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    font-size: 14px;
+    background-color: #cccccc;
+    life-style:none;
+}
+.clear{
+    clear:both;
+}
+.auto{
+    width: 100%;
+    margin: 0px auto;
+}
+
+#top{
+    height: 70px;
+    background-color:darkturquoise;
+}
+
+#top h1{
+    margin:0px;
+    padding-top: 10px;
+    font-size: 25px;
+    font-style: italic;
+    font-family:STFangsong;
+    text-align: center;
+    color: ghostwhite;
+}
+
+#top .dl{
+    width:100%;
+    height:20px;
+}
+#top .dl .dl1{
+    width: 30%;
+    height: 20px;
+    float: left;
+}
+#top .dl .dl2{
+    width: 30%;
+    height: 20px;
+    float: right;
+}
+#top .dl p{
+    width: 40%;
+    float: left;
+    height: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#top .dl img{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+#top img{
+    margin: 10px 0px 10px 0px;
+    padding:0px;
+    float:right;
+}
+
+#top .search{
+    height:40px;
+    width:auto;
+    margin-top: 10px;
+    float: left;
+}
+#menu{
+    height: 235px;
+    padding: 2px 0px;
+    margin-bottom: 2px;
+    background-color:white;
+}
+#menu .icon{
+    border: 1px solid #cccccc;
+    border-radius: 50%;
+    background-size: cover;
+    float: left;
+    padding: 0px;
+    margin-top: 3px;
+    margin-left: 1%;
+    margin-bottom: 32px;
+    width: 23%;
+    height: 34.5%;
+}
+#menu .img-icon{
+    height: 100%;
+    width: 100%;
+}
+#menu .icon p{
+    text-align: center;
+    padding-bottom:0px;
+    margin-top: auto;
+    font-size: 15px;
+    font-style: italic;
+    font-family: STFangsong;
+}
+#xcmd{
+    height: 190px;
+    padding-bottom: 5px;
+    margin-bottom: 6px;
+    background-image: url("images/背景1.jpg");
+}
+#xcmd .div1{
+    height: 30px;
+    padding-bottom: 5px;
+    margin-bottom: 6px;
+}
+#xcmd .div1 p{
+    float:left;
+    font-size: 18px;
+    padding-top: 0px;
+    margin: 10px;
+    font-family:STFangsong;
+    font-weight: 700;
+}
+#xcmd img{
+    margin: 5px 0px 5px 0px;
+    padding:0px;
+    float:right;
+}
+#xcmd .mdxx{
+    background-color:snow;
+    border: 1px solid black;
+    width: 100%;
+    height: 150px;
+}
+#xcmd .mdxx .md{
+    width: 32.5%;
+    height: 99%;
+    background-color: white;
+    border: 1px solid #cccccc;
+    float:left;
+    margin:0px;
+}
+#xcmd .mdxx .md img{
+    width:100%;
+    height:60%;
+    float: left;
+}
+#xcmd .mdxx .md a{
+    color:#576267;
+}
+.p1{
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    float: left;
+    margin-bottom: auto;
+    margin-top: 0px;
+    margin-left: auto;
+    font-style: italic;
+}
+.p2{
+    font-size: 17px;
+    float: left;
+    margin-left:20%;
+    margin-top: 4%;
+    margin-bottom: 0px;
+    color: orange;
+}
+.p3{
+    font-size: 14px;
+    margin-left: 10%;
+    margin-top: 9%;
+    color:green;
+    float: left;
+}
+#recommand{
+    width:100%;
+    height: 1000px;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 6px;
+}
+.p4{
+    font-size: 18px;
+    float: left;
+    margin-left: 5%;
+    font-family:STFangsong;
+    font-weight: 700;
+
+}
+#recommand .div2{
+    border: 1px solid #cccccc;
+    height: 38px;
+}
+#recommand .div3{
+    border: 2px solid #cccccc;
+    height: 150px;
+    margin: 5px 0px;
+}
+#recommand .div3 img{
+    width: 30%;
+    height: 90%;
+    float:left;
+    margin: 1%;
+}
+.p5{
+    margin: 3px;
+    font-size: 18px;
+    font-style: italic;
+    font-weight:300;
+    float: left;
+    width: 66%;
+    height: 18%;
+}
+.p6{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 6%;
+    color: #cccccc;
+    width: 68%;
+    height: 30%;
+}
+.span1{
+    color: aqua;
+}
+
+.div4{
+    height: 40px;
+    margin: 30px;
+    background-color: #EEEEEE;
+}
+.div4 ul{
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    life-style:none;
+}
+.div4 ul li a{
+    color:#576267;
+    width:100%;
+    height:100%;
+    line-height:100%;
+    text-align:center;
+    font-size:14px;
+    display:block;
+}
+.div4 ul li a:hover{
+    text-decoration: underline;
+}
+.p7{
+    margin-top: 10px;
+    font-size: 20px;
+    color: aqua;
+    align: center;
+}
+.div5{
+    position: relative;
+    bottom: inherit;
+    height: 30px;
+    width: 100%;
+}
+#foot{
+    position:fixed;
+    _position:absolute;
+    width: 100%;
+    height: 80px;
+    bottom:0px;
+    _bottom:0px;
+    _margin-top:expression(this.style.pixelHeight+document.documentElement.scrollTop)
+}
+#foot ul{
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+#foot li{
+    float:left;
+    margin-left:10%;
+    margin-right: 5%;
+    padding: 0px;
+}
+#foot .li1{
+    margin-top:12px;
+}
