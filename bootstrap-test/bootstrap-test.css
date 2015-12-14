@@ -1,0 +1,83 @@
+html,body{
+    font-family: "Microsoft Yahei","微软雅黑";
+}
+.navbar-inverse{
+    z-index: 1000;
+    height: 78px;
+    border-bottom: medium none;
+    background: #FFF none repeat scroll 0% 0%;
+}
+.navbar{
+    margin-bottom: 0px;
+    border: medium none;
+    border-radius: 0px;
+}
+.container{
+    padding: 0px;
+    width: 1004px !important;
+}
+.navbar-brand{
+    padding-top: 10px;
+}
+.navbar-inverse .nav-collapse,.navbar-inverse .navbar-form{
+    border-color:#38F;
+}
+.bk-nav-list li{
+    margin-left: -1px;
+    border-right: 1px solid #ebebeb;
+    border-left: 1px solid #ebebeb;
+}
+.nav-item{
+    position: relative;
+}
+.bk-sub-menu .sub-nav-item{
+    border-bottom: 1px solid #DDD;
+}
+.bk-sub-menu >li{
+    border:medium none;
+}
+.bk-sub-menu{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: outside none none;
+    text-align: center;
+    border: 1px solid #DDD;
+    background: #FFF none repeat scroll 0% 0%;
+}
+.bk-sub-menu .sub-nav-item a{
+    display: block;
+    width: 114px;
+    height: 44px;
+    font-size: 12px;
+    line-height: 44px;
+    border: medium none;
+}
+.bk-nav-list li a{
+    width:114px;
+    height: 78px;
+    padding: 0px;
+    font-size: 16px;
+    line-height: 74px;
+    transition:all 0.3s ease 0s;
+    text-align: center;
+    color: #232323 !important;
+    border-top: 4px solid #FFF;
+}
+.bk-sub-menu .sub-nav-item:last-child{
+    border-bottom: medium none;
+}
+.bk-banner-box .container-fluid{
+    padding: 0px;
+}
+:root .bk-banner-box .carousel-indicators li{
+    border: 1px solid #FFF;
+    margin-right: 10px;
+}
+.bk-banner-box .carousel-indicators .active{
+
+}
+.bk-banner-box .carousel-indicators li{
+
+}
