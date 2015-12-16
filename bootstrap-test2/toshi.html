@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Toshi - Open Source Bitcoin Node</title>
+    <meta property="og:title" content="Toshi - Open source Bitcoin Node">
+    <meta property="og:description" content="A full bitcoin node for building web applications.">
+    <meta property="og:image" content="https://coinbase.com/assets/toshi/og-toshi.jpg">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="Toshi - Open source Bitcoin Node">
+    <meta itemprop="description" content="A full bitcoin node for building web applications.">
+    <meta itemprop="image" content="https://coinbase.com/assets/toshi/og-toshi.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="admin.css?v=1">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-54878617-3', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+<body class="home">
+    <div class="github_link">
+        <a target="_blank" href="http://github.com/coinbase/toshi">
+            <h2>FORK ME
+            <span>on GitHub</span>
+            </h2>
+        </a>
+    </div>
+    <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <nav class="navbar navbar-default" role="navigation">
+                            <div class="container-fluid">
+                                <ul class="nav navbar-nav">
+                                    <li class="active">
+                                        <a href="#">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="/docs">Documentation</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://github.com/coinbase/toshi">Github</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div id="header" class="container" style="height: 511px;">
+                <div class="row logo">
+                  <div class="col-md-10 col-md-push-1">
+                      <div class="logo_placement">
+                          <span class="toshi_logo"></span>
+                          <h1>TOSHI</h1>
+                          <p>An open source Bitcoin node built to power large scale web applications.</p>
+                      </div>
+                      <div class="toshi_links">
+                          <a class="btn" href="/docs">Documenation</a>
+                          <a class="btn" target="_blank" href="http://bitcoin.toshi.io/">VIEW DEMO</a>
+                          <a class="btn" target="_blank" href="http://github.com/coinbase/toshi">VIEW ON GITHUB</a>
+                      </div>
+                  </div>
+                </div>
+            </div>
+            <arrows id="scollTriger" style="display: block;">
+                <arrow ar-i="0"></arrow>
+                <arrow ar-i="1"></arrow>
+                <arrow ar-i="2"></arrow>
+            </arrows>
+    </header>
+    <section class="page_wraper">
+        <div class="container">
+            <article class="features">
+                <div class="row">
+                    <div class="col-sm-4 fearture_a">
+                        <div>
+                            <h3>
+                                100% open source
+                            </h3>
+                            <p>Toshi is a full open source Bitcoin node implementation,built by Coinbase.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 feartrue_b">
+                        <div>
+                            <h3>
+                                postgresql
+                            </h3>
+                            <p>Toshi is backed by Postgresql due to its impeccable reputation,proven track record,and powerful featrue set.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 featrue_c">
+                        <div>
+                            <h3>
+                              powerful api
+                            </h3>
+                            <p>Toshi provides power APIs to aid in blockchain ewploration,analysis,as well as wallet functionality at scale.</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article id="scrollToId" class="quick_api">
+                <div class="row">
+                    <div class="col-md-12" >
+                        <div class="section_title">
+                            <h2>DESIGNED FOR DEVELOPERS</h2>
+                        </div>
+                        <div class="quick_api_nav">
+                            <a class="active" data-section="block">BLOCK</a>
+                            <a class="" data-section="transaction">TRANSECTION</a>
+                            <a class="" data-section="address">ADDRESS</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="block" class="section active">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h4>GET LATEST BLOCK</h4>
+                            <p>
+                                In this example we retrieve information about the lasstest main branch block processed by Toshi.
+                                <br>
+                                This same information is of cource available for all blocks.
+                            </p>
+                            <div class="documentation_link">
+                                <a class="btn" href="#">documentation</a>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="quick_api_link">
+                                <h5>
+                                    API Endpoint
+                                </h5>
+                                <div class="code">
+                                    <div class="link_wraper">
+                                        <p>
+                                            <a target="_blank" href="#">/api/v0/blocks/lastest</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="quick_api_code">
+                                <h5>
+                                    response
+                                </h5>
+                                <pre>
+                                    <code class="json hljs">
+                                        {*}
+                                    </code>
+                                </pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="transaction" class="section">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h4>GET TRANSACTION DETAILS</h4>
+                            <p>
+                                Retrieve information about a particular transaction on the network.
+                            </p>
+                            <div class="documentation_link">
+                                <a class="btn" href="#">documentation</a>
+                            </div>
+                            </div>
+                        <div class="col-md-8">
+                            <div class="quick_api_link">
+                                <h5>
+                                    API Endpoint
+                                </h5>
+                                <div class="code">
+                                    <div class="link_wraper">
+                                        <p>
+                                            <a target="_blank" href="#">/api/v0/blocks/lastest</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="quick_api_code">
+                                <h5>
+                                    response
+                                </h5>
+                                <pre>
+                                    <code class="json hljs">
+                                        {*}
+                                    </code>
+                                </pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="row toshi_cite">
+                    <div class="col-md-12">
+                        <h2>
+                            <strong>Toshi is currently in beta</strong>
+                            .Although we're passing TheBlueMatt's de facto standard Bitcoin
+                            <a href="https://github.com/TheBlueMatt/test-scripts">test-scripts</a>
+                            we still don't recommend using Toshi in production until its tires have been sufficiently kicked.
+                        </h2>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+    <div class="container text-center">
+       <footer>
+           <div class="row">
+               <div class="col-md-6 col-md-push-3">
+                   <p>
+                       Toshi is 100% open source and maintained by coinbase
+                   </p>
+               </div>
+           </div>
+       </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="bootstrap.js"></script>
+    <script src="plugins.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.quick_api_nav a').on('click', function(){
+                $('.quick_api_nav a').removeClass('active');
+                $(this).addClass('active');
+                $('.section').removeClass('active');
+                $('#'+$(this).data('section')+'.section').addClass('active');
+            });
+
+            $("#scrollTriger").click(
+                function() {
+                    $('html, body').animate({scrollTop: $("#scrollToId").offset().top}, 1000);
+                });
+        });
+        $(window).scroll(function () {
+            if ($(window).scrollTop() >= 150) {
+                $('arrows').fadeOut('slow');
+            }
+            if ($(window).scrollTop() < 150) {
+                $('arrows').fadeIn('slow');
+            }
+        });
+        $(window).resize(function(){
+            $('#header').height($(window).height());
+        });
+        $('#header').height($(window).height());
+    </script>
+</body>
+</html>
