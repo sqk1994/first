@@ -1,0 +1,310 @@
+.header{
+    width:100%;
+    height:33.33%;
+    margin:0;
+}
+.header .topbar{
+    width: 100%;
+    height: 30px;
+    background-color:rgba(44,62,80,1);
+    padding-bottom: 0px;
+}
+.header .clear{
+    clear: both;
+}
+.header .topbar span{
+    margin-right: 20px;
+    padding-right: 10px;
+    border-right: 1px solid black;
+    padding-top: auto;
+    margin-top: 7px;
+    height: 30px;
+    color: #fff;
+}
+.header .row #div1 p{
+    display: inline;
+    color: #fff;
+    font-size: small;
+}
+.header .navbar{
+    height: 60px;
+    background-color: #fff;
+    margin-bottom: auto;
+}
+.header .navbar .row ul{
+    display: inline;
+}
+.header .navbar .row ul li{
+    text-transform: uppercase;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 5px;
+    padding-top: 18px;
+    height:60px;
+    width: 13.45%;
+    float: left;
+    display:block;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.header .navbar .row ul li:hover{
+    color: rgba(29,210,175,0.8);
+}
+.header .navbar .row ul #li-last:hover{
+    background-color: rgba(255,255,255,0.8);
+}
+.header #carousel1{
+    position: absolute;
+    height: 500px;
+    background: url("images/header/carousel-1.png") no-repeat;
+    color: #003333;
+    opacity: 0.6;
+    padding: 0;
+}
+.header #carousel1 .arrow-l{
+    width: 50px;
+    height: 50px;
+    margin-top: 225px;
+    margin-bottom: auto;
+    float: left;
+    border: 1px solid #fff;
+    text-align: center;
+    padding-top: 10px;
+}
+.header #carousel1 .arrow-l:hover,.header #carousel1 .arrow-r:hover{
+    background-color:rgba(29,210,175,0.8);
+}
+.header #carousel1 .arrow-r{
+    width: 50px;
+    height: 50px;
+    margin-top: 225px;
+    margin-bottom: auto;
+    float: right;
+    border: 1px solid #fff;
+    text-align: center;
+    padding-top: 10px;
+}
+.header #carousel1 .div2{
+    text-align: center;
+    margin-top: 230px;
+    height: 200px;
+}
+.header #carousel1 .div2 .p1{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+}
+.header #carousel1 .div2 .p2{
+    color: #fff;
+}
+.header #carousel1 .div2 .btn{
+    border: 1px solid #fff;
+    border-radius: 0;
+    text-transform: uppercase;
+    color: #fff;
+}
+.header #carousel1 .div2 .btn:hover{
+    background-color:rgba(29,210,175,0.8); ;
+}
+.header #holidays-pack{
+    height: 60px;
+    margin-top: 500px;
+    background-color:rgba(44,62,80,1);
+}
+.header #holidays-pack .btn{
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.header #holidays-pack .btn:hover{
+    background-color:rgba(29,210,175,0.8); ;
+}
+.model{
+    height:1200px;
+    background-color: #fff;
+}
+.model #model1{
+    height:400px;
+    background-color: #fff;
+}
+.model #model1 .bt1{
+    height: 120px;
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+}
+.model #model1 .bt1 h1{
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.model #model1 .bt1 p{
+    font-size: 15px;
+    color: #ccc;
+}
+.model .row{
+    margin-left: 50px;
+}
+.model .row .offers{
+    boeder:2px solid #fff;
+    margin-left: 0;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: 2px;
+    background-color: #ccc;
+    width:243px;
+}
+.model .row .offers:hover{
+    background-color:rgba(44,62,80,1);
+    border: 3px solid rgba(29,210,175,0.8);
+}
+.model .row .offers:hover p{
+    color: #fff;
+}
+.model .row .offers .imgs,
+.model .row .offers .texts,
+.model .row .offers .buttons{
+    padding-left: 0;
+    padding-right: 0;
+}
+.model .row .offers .imgs{
+    width:235px;
+}
+.model .row .offers img{
+    height: 155px;
+    width: 230px;
+    float: left;
+    text-align: center;
+    margin-bottom: 3px;
+}
+.model #model2{
+    height:400px;
+    background-image:url('images/model/background.png');
+    opacity: 0.70;
+}
+.model #model2 .box{
+    height: 400px;
+    background-color:rgba(44,62,80,0.6);
+}
+.model #model2 .bt2{
+    height: 120px;
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+}
+.model #model2 .bt2 h1{
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.model #model2 .bt2 p{
+    font-size: 15px;
+    color: #ccc;
+}
+.model #model2 .row{
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.model #model2 .icon_list .icons{
+    border-radius: 50%;
+    background-size: cover;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    text-align: center;
+}
+.model #model2 .icon_list .icons p{
+    font-size: 15px;
+    color: #fff;
+}
+.model #model2 .icon_list .icons img{
+    width:100px;
+    height: 100px;
+    margin-left: 0px;
+}
+.model #model3{
+    background-color: #fff;
+}
+.model #model3 .bt3{
+    height: 120px;
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+}
+.model #model3 .bt3 h1{
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.model #model3 .bt3 p{
+    font-size: 15px;
+    color: black;
+}
+.model #model3 .row{
+    margin-top: 50px ;
+}
+.model #model3 .row .clients{
+    border: 1px solid #ccc;
+    margin: 0 15px;
+}
+.model #model3 h4{
+    color:rgba(29,210,175,0.8) ;
+    font-size: 20px;
+}
+.model #model3 .p1{
+    color: #3c3c3c;
+    opacity: 0.8;
+}
+.model #model3 .p2{
+    color: #3c3c3c;
+    opacity: 0.5;
+}
+.model #model3 .row .clients:hover{
+    border-top: 4px solid rgba(29,210,175,0.8) ;
+    margin: 0 15px;
+}
+.footer{
+    background-color: rgba(44,62,80,1);
+}
+.footer p{
+    color: #fff;
+}
+.footer h5{
+    font-size: 19px;
+    color: rgba(29,210,175,0.8);
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.footer .btn{
+    color:#fff;
+}
+.footer .row .links .btn:hover{
+    background-color:rgba(29,210,175,0.8) ;
+    color: #fff;
+}
+.footer img{
+    margin-bottom: 30px;
+}
+.footer .copyR{
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
+.footer .copyR span{
+    display: inline-block;
+}
+.footer .copyR .p2{
+    color: #fff;
+}
+.footer .copyR .p2 span{
+    color: rgba(29,210,175,0.8);
+}
+.footer .copyR .p3{
+    color: lavender;
+    margin-bottom: 0;
+}
+.footer .copyR img{
+    margin-top: -48px;
+}
