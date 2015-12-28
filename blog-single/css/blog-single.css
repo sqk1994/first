@@ -1,0 +1,465 @@
+body{
+    background-color: rgba(136,147,147,0.05);
+    min-width: 1500px;
+}
+.container{
+    width: 1500px;
+}
+.header{
+    height: 160px;
+    background-color: inherit;
+    width: 100%;
+}
+p{
+    letter-spacing: 0.8px ;
+}
+.header .topbar{
+    width: 100%;
+    height: 80px;
+    background-color: rgba(118,199,192,1);
+    background-image: url("../images/path.png");
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding-right: 167px;
+}
+.header .topbar .logo{
+    margin-left: 163px;
+}
+.header .topbar .logo #p1{
+    font-size:30px;
+    color: #fff;
+    float: left;
+    margin-top:15px;
+    font-weight: bold;
+}
+.header .topbar .logo #p2{
+    font-size: 25px;
+    color: #fff;
+    float: left;
+    margin-top: 20px;
+    margin-left: 5px;
+    font-weight: 300;
+}
+.header .topbar .menu{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 28px;
+    margin-left: 58px;
+    padding-right: 0px;
+}
+.header .topbar .menu .btn>a{
+    color:#fff;
+}
+.header .topbar .menu .btn>a>img{
+    float: right;
+}
+.header .topbar .menu .btn{
+    border-radius: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.header .topbar .menu .btn:hover{
+    background-color: rgba(82,139,134,0.7);
+    border-bottom: 3px solid rgba(82,139,134,1.0);
+    color: #fff;
+}
+.header .topbar #path{
+    position: relative;
+    bottom: 0px;
+    padding: 0;
+}
+.header .topbar #path img{
+    margin:0;
+}
+.header .header-blog{
+    background-color: rgba(236,236,236,1);
+    width: auto;
+    height: 80px;
+}
+.header .header-blog .head{
+    margin-left: 163px;
+}
+.header .header-blog .head .title{
+    float: left;
+    color: rgba(136,147,147,1);
+    font-size: 20px;
+    margin-top: 25px;
+    padding-left: 10px;
+}
+.header .header-blog .head .link{
+    float:right;
+    font-size: 15px;
+    margin-top: 28px;
+    margin-right: 167px;
+    text-align: right;
+}
+.header .header-blog .head .link>a{
+    color: rgba(155,155,155,1);
+}
+.header .header-blog .head .link>a:hover{
+    color: rgba(82,139,134,1.0);
+    font-weight: 500;
+}
+.header .header-blog .head .triangle{
+    border: 15px solid rgba(236,236,236,1);
+    width: 0px;
+    margin-top: 80px;
+    margin-left: 13px;
+    border-bottom-color: #fff;
+    border-left-color: #fff;
+    border-right-color: #fff;
+}
+.blog-share{
+    margin-left: 163px;
+    margin-right: 167px;
+    background-color: rgba(255,255,255,0);
+}
+.blog-share .nothing{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(255,255,255,0);
+}
+.blog-share .nothing .triangle {
+    border: 15px solid rgba(236, 236, 236, 1);
+    width: 0px;
+    margin-top: 0px;
+    margin-left: 13px;
+    border-bottom-color: rgba(255,255,255,0);
+    border-left-color: rgba(255,255,255,0);
+    border-right-color: rgba(255,255,255,0);
+}
+.blog-share .b-s .title1{
+    height:80px;
+}
+.blog-share .b-s .title1 .tt-img{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+    border-radius: 5px;
+    background-color: rgba(127,140,140,1);
+}
+.blog-share .b-s .title1 .tt-img img{
+    margin-top: 12px;
+}
+.blog-share .b-s .title1 .p1{
+    color: rgba(118,199,192,0.8);
+    font-size: 20px;
+    font-weight: 500;
+}
+.blog-share .b-s .title1 .p2{
+    color:rgba(127,140,140,1);
+    font-size: 12px;
+}
+.blog-share .b-s .title1 .p2>span{
+    color: red;
+    font-size: 13px;
+}
+.blog-share .blog-area{
+    background-color:rgba(130,130,130,0.01) ;
+
+}
+.blog-share .blog-area .blog-text{
+    font-size: 14px;
+    color: rgba(127,140,140,1);
+    font-weight: 400;
+    margin:5px 5px 20px 5px;
+}
+.blog-share .blog-area .blog-text:hover{
+    border-left:4px solid rgba(127,140,140,1);
+    margin-left: 50px;
+    padding-left: 30px;
+}
+.blog-share .share-area{
+    width: 100%;
+    height: 55px;
+    background-color: rgba(127,140,140,0.05);
+    margin-bottom: 50px;
+}
+.blog-share .share-area p{
+    color:rgba(127,140,140,1);
+    font-size: 18px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 17px;
+}
+.blog-share .share-area .icon1{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 5px;
+    margin-top: 7px;
+    text-align: center;
+}
+.blog-share .share-area .icon1 img{
+    margin-top: 10px;
+}
+.blog-share .share-area .icon2{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    float: right;
+    margin-right: 5px;
+    margin-top: 7px;
+    text-align: center;
+    background-color: rgba(127,140,140,1);
+}
+.blog-share .share-area .icon2:hover{
+    background-color: rgba(226,83,75,1);
+}
+.blog-share .share-area .icon2 img{
+    margin-top: 10px;
+}
+.comment{
+    background-color:rgba(127,140,140,0) ;
+}
+.comment h2{
+    color:rgba(127,140,140,1) ;
+    font-size: 23px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.comment #reply .admin{
+    margin-top: 20px;
+}
+.comment #reply .admin .admin-img{
+    background-color:rgba(127,140,140,1);
+    height: 60px;
+    width: 60px;
+    border-radius: 4px;
+    z-index: 1005;
+    float: left;
+    text-align: center;
+    padding-top: 15px;
+    margin-right: 10px;
+}
+.comment #reply .admin>p{
+    color:rgba(127,140,140,1) ;
+    font-weight: 600;
+    font-size: 17px;
+}
+.comment #reply .admin>p>span{
+    font-size: 14px;
+    font-weight: 400;
+}
+.comment #reply .admin .reply{
+    font-size: small;
+    text-transform: uppercase;
+    float: right;
+    margin-top: -30px;
+}
+.comment #reply .admin .reply>a{
+    color:red;
+}
+.comment #reply .admin .describe{
+    z-index: 1000;
+    margin-left: 30px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 5px;
+    border-bottom: 3px solid rgba(127,140,140,0.3);
+    font-size: 14px;
+    color:rgba(127,140,140,0.8) ;
+}
+.comment #reply .admin .describe:hover{
+    background-color: rgba(127,140,140,0.3);
+}
+.comment .comment-area{
+    height: 300px;
+    background-color:rgba(127,140,140,0.1)
+}
+.comment .comment-area1{
+    background-color:rgba(127,140,140,0.1)
+}
+.comment .form-horizontal .form-group{
+    padding-bottom: 5px;
+}
+.comment .form-horizontal .form-group label{
+    text-align: left;
+    color:rgba(127,140,140,1);
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 0;
+}
+.comment #send{
+    height: 50px;
+    width: 200px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(127,140,140,0.4);
+    letter-spacing: 0.8px;
+}
+.comment #send:hover{
+    background-color: red;
+    color: #fff;
+}
+.blog-share .b-r #Categories>h3,
+.blog-share .b-r #Recent-posts>h3,
+.blog-share .b-r #Tags>h3,
+.blog-share .b-r #Archive>h3{
+    font-size: 15px;
+    color:rgba(127,140,140,1);
+    font-weight: 700;
+}
+.blog-share .b-r #Categories>p{
+    color: red;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px ;
+}
+.blog-share .b-r #Recent-posts .rp{
+    border-bottom: 1px solid rgba(127,140,140,0.3);
+}
+.blog-share .b-r #Recent-posts .rp .jt{
+    height: 50px;
+    width: 30px;
+    float: left;
+}
+.blog-share .b-r #Recent-posts .rp .jt>img{
+    margin-top: -10px;
+    margin-left: 11px;
+}
+.blog-share .b-r #Recent-posts .rp .tt>h4{
+    color:red;
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-weight: 400;
+    letter-spacing: 0.8px ;
+ }
+.blog-share .b-r #Recent-posts .rp .tt>p{
+    color:rgba(127,140,140,0.5);
+    font-size: 12px;
+}
+.blog-share .b-r #Tags .btn{
+    background-color:rgba(127,140,140,1) ;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin: 4px 1px 4px;
+}
+.blog-share .b-r #Tags .btn>a{
+    color: #fff;
+}
+.blog-share .b-r #Tags .btn:hover{
+    background-color: red;
+}
+.blog-share .b-r #Archive>p>a{
+    color: red;
+    font-size: 13px;
+}
+.footer{
+    background-color: rgba(118,199,192,1);
+    background-image: url("../images/path1.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+.footer .footer-bar{
+    margin-left: 163px;
+    margin-right: 167px;
+}
+.footer .footer-bar #about>h5{
+    color: #fff;
+    font-family: "FontAwesome", "微软雅黑";
+    font-size: 25px;
+    margin:20px 5px;
+    letter-spacing: 0.8px ;
+}
+.footer .footer-bar #about>h5>span{
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 700;
+}
+.footer .footer-bar #about>p{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer .footer-bar #about>p>span{
+    font-size: 20px;
+    font-style: italic;
+    font-family: Georgia;
+}
+.footer #company>h6,.footer #community>h6{
+    font-size: 18px;
+    color: rgba(73,126,121,1);
+    margin:20px 5px 30px;
+}
+.footer #company>p,.footer #community>p{
+    font-size: 13px;
+    color: #fff;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+.footer #company>p>a,.footer #community>p>a{
+    color: #fff;
+}
+.footer .footer-bar #from-the-blog .h7{
+    color: #fff;
+    font-size: 18px;
+    font-family:Georgia;
+    font-style: italic;
+    margin: 20px 5px 30px;
+}
+.footer .footer-bar #from-the-blog .h7>span{
+    font-weight: 600;
+    font-style: normal;
+}
+.footer .footer-bar #from-the-blog .tj{
+    height: 90px;
+}
+.footer .footer-bar #from-the-blog .tj-img{
+    float: left;
+    height: 70px;
+    width: 70px;
+    padding-top: 21px;
+    background-color:rgba(94,159,154,1);
+    border-radius: 4px;
+    text-align: center;
+    margin: 5px 20px 5px 10px;
+}
+.footer .footer-bar #from-the-blog .tj .p1{
+    color: #fff;
+    font-size: 13px;
+}
+.footer .footer-bar #from-the-blog .tj .p2{
+    color:rgba(94,159,154,1);
+    font-size: 13px;
+}
+.footer #footer1{
+    height: 50px;
+    background-color:rgba(94,159,154,0.5) ;
+}
+.footer #footer1 .div0{
+    margin-left: 163px;
+    text-align: center;
+    height: 100%;
+}
+.footer #footer1 .div0>p{
+    color: #fff;
+    margin-top: 15px;
+}
+.footer #footer1 .div0 .footer-img{
+    margin-left: 25px;
+}
+.footer #footer1 .div0 .footer-img>img{
+    margin-top: 15px;
+}
+.footer #footer1 #ByName{
+    float: right;
+    width: 167px;
+}
+.footer #footer1 #ByName>h1{
+    margin: 0;
+}
+
